@@ -1,0 +1,3 @@
+code n stuff
+lie 1
+line 2
