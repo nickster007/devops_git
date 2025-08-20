@@ -1,0 +1,21 @@
+                ┌─────────────────────┐
+                │   Remote Repository │
+                │ (GitHub/GitLab/etc) │
+                │ Immutable copy      │
+                └─────────▲───────────┘
+                          │  git push
+                ┌─────────────────────┐
+                │   Local Repository  │
+                │ (.git/objects)      │
+                │ Immutable commits   │
+                └─────────▲───────────┘
+                          │  git commit
+                ┌─────────────────────┐
+                │   Staging Area      │
+                │ (the Index)         │
+                └─────────▲───────────┘
+                          │  git add
+                ┌─────────────────────┐
+                │   Working Directory │
+                │ (your actual files) │
+                └─
